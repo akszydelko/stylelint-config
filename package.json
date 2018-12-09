@@ -1,0 +1,28 @@
+{
+  "name": "@aszydelko/stylelint-config",
+  "version": "1.0.0",
+  "description": "This is a personal Stylelint configuration.",
+  "author": "Arkadiusz Szydelko",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/akszydelko/stylelint-config.git"
+  },
+  "files": [
+    "*.js",
+    "README.md"
+  ],
+  "keywords": [
+    "stylelint"
+  ],
+  "dependencies": {
+    "stylelint": "9.9.0",
+    "stylelint-config-recess-order": "2.0.0",
+    "stylelint-config-standard": "18.2.0",
+    "stylelint-declaration-strict-value": "1.1.2",
+    "stylelint-find-rules": "1.1.1",
+    "stylelint-scss": "3.4.1",
+    "stylelint-webpack-plugin": "0.10.5"
+  }
+}
