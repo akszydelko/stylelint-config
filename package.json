@@ -1,13 +1,13 @@
 {
-  "name": "@aszydelko/stylelint-config",
-  "version": "1.0.3",
-  "description": "This is a personal Stylelint configuration.",
-  "author": "Arkadiusz Szydelko",
+  "name": "@infermedica/stylelint-config",
+  "version": "1.0.0",
+  "description": "Stylelint configuration.",
+  "author": "Infermedica",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/akszydelko/stylelint-config.git"
+    "url": "git+ssh://git@github.com/infermedica/stylelint-config.git"
   },
   "files": [
     "*.js",

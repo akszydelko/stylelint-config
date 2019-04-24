@@ -1,11 +1,11 @@
 ## Stylelint configuration
 
-This is a personal Stylelint configuration.
+Stylelint configuration.
 
 ## Install
 
 ```bash
-npm i @aszydelko/stylelint-config --save-dev
+npm i @infermedica/stylelint-config --save-dev
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ Then, add this to your `.stylelintrc` or `package.json` file:
 
 ```
 {
-  "extends": "@aszydelko/stylelint-config"
+  "extends": "@infermedica/stylelint-config"
 }
 ```
 
@@ -34,4 +34,4 @@ Recommended set of commands to put in `package.json` scripts:
 
 ## License
 
-MIT Copyright (c) Arkadiusz Szydełko
+MIT Copyright (c) Infermedica
