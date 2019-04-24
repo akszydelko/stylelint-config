@@ -9,6 +9,7 @@ module.exports = {
     'stylelint-declaration-strict-value'
   ],
   rules: {
+    'no-empty-source': null,
     'at-rule-no-unknown': null,
     'scss/at-rule-no-unknown': true,
     'selector-max-id': 0,
@@ -42,8 +43,5 @@ module.exports = {
         }
       }
     ]
-  },
-  ignoreFiles: [
-    '**/*.gif'
-  ]
+  }
 };
