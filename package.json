@@ -1,6 +1,6 @@
 {
   "name": "@aszydelko/stylelint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a personal Stylelint configuration.",
   "author": "Arkadiusz Szydelko",
   "license": "MIT",

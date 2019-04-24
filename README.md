@@ -5,14 +5,14 @@ This is a personal Stylelint configuration.
 ## Install
 
 ```bash
-npm i @aszydelko/stylelint-config
+npm i @aszydelko/stylelint-config --save-dev
 ```
 
 ## Usage
 
 This config is designed to work with the `extends` feature of `.stylelintrc` files.
 
-Then, add this to your `.stylelintrc` file:
+Then, add this to your `.stylelintrc` or `package.json` file:
 
 ```
 {
@@ -21,7 +21,16 @@ Then, add this to your `.stylelintrc` file:
 ```
 
 You can override settings from this config by adding them directly into your
-`.stylelintrc` file.
+`.eslintrc` or `package.json` file.
+
+#### Commands
+
+Recommended set of commands to put in `package.json` scripts:
+
+```
+  "lint:css": "stylelint ./**/*.css ./**/*.scss ./**/*.vue",
+  "lint-autofix:css": "stylelint ./**/*.css ./**/*.scss ./**/*.vue --fix",
+```
 
 ## License
 
