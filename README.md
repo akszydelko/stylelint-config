@@ -1,6 +1,4 @@
-## Stylelint configuration
-
-Stylelint configuration.
+# Infermedica Stylelint configuration
 
 ## Install
 
@@ -12,7 +10,7 @@ npm i @infermedica/stylelint-config --save-dev
 
 This config is designed to work with the `extends` feature of `.stylelintrc` files.
 
-Then, add this to your `.stylelintrc` or `package.json` file:
+Add this to your `.stylelintrc` or `package.json` file:
 
 ```
 {
